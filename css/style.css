@@ -1,0 +1,246 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Main styling*/
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7em;
+}
+
+/* links styling*/
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+/* padding */
+.py-1{
+    padding: 10px 0;
+}
+.py-2{
+    padding: 20px 0;
+}
+.py-3{
+    padding: 30px 0;
+}
+
+/* Navbar */
+#navbar {
+ background-color: #333;
+ color: #fff;
+ overflow:auto;
+}
+
+#navbar a {
+    color:#fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+cursor:pointer;
+background: #444;
+color: #f7c08a;
+}
+
+.container {
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/* Showcase */
+#showcase {
+background: url("https://images.pexels.com/photos/26139/pexels-photo-26139.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center/cover;
+height: 600px;
+}
+#showcase .showcase-content{
+    color:rgb(15, 8, 8);
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+ .text-primary ,.u ,.t{
+    color:rgb(202, 142, 13);
+}
+.lead{
+    font-size: 20px;
+    color:#000;
+}
+ .btn{
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 2px;
+    background-color:#444;
+    color:#fff;
+    cursor: pointer;
+
+}
+.btn:hover{
+ color:#ca6908;
+ background-color: rgb(194, 172, 155);
+}
+
+.btn-light{
+    background:#f4f4f4;
+    color:#333;
+}
+
+.bg-dark{
+    background: #333;
+    color:#fff;
+}
+.bg-light{
+    background:#f4f4f4;
+    color:#333;
+}
+.bg-primary{
+    background:#f7c08a;
+    color:#333;
+}
+.clr{
+    clear: both;
+}
+
+.l-heading{
+    font-size: 40px;
+}
+#home-info{
+    height: 400px;
+
+}
+#home-info .info-img{
+    float:left;
+    width: 50%;
+    background: url("https://images.pexels.com/photos/277572/pexels-photo-277572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat ;
+    min-height: 100%;
+}
+#home-info .info-content{
+    float:right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding:50px 20px;
+    overflow:hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 10px;
+}
+#home-info .lead {
+ color:#fff;
+}
+
+.Box {
+    float: left;
+    width:33.3%;
+    padding:50px;
+    text-align: center;
+
+}
+.Box i{
+    margin-bottom: 10px;
+}
+
+#about-info .info-right{
+    float:right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display:block;
+    margin:auto;
+    width: 50%;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    float:left;
+    width:50%;
+    min-height: 100%;
+}
+/* testimonials */
+#testimonial{
+    height: 600px;
+    background: url("https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat 
+    center center/cover;
+    padding-top : 100px; 
+}
+#testimonial .testimonial {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.89;
+}
+#testimonial .testimonial img{
+    width:160px;
+    float:left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#testimonial h2{
+    text-align: center;
+    padding-bottom: 40px;
+    color:#fff;
+}
+#contact-form .form-group{
+    margin-bottom:20px;
+}
+#contact-form label{
+    display:block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width:100%;
+    padding:20px;
+    border: 1px #ddd solid;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline:none;
+    border-color: #f7c08a;
+}
+#contact-form textarea{
+    height:200px;
+}
+
+#mainfooter{
+    text-align: center;
+    background: #444;
+    color:#fff;
+    padding: 20px;
+}
